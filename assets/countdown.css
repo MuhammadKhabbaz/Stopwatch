@@ -33,4 +33,25 @@ header nav{
 }
 body{
   background-color: #383839;
+  color: white;
+}
+main{
+    text-align: center;
+}
+main h2{
+    padding: 25px;
+    font-weight: bold;
+    font-size: 35px;
+}
+button{
+    color:Black;
+    background-color:white;
+    font-size:20px;
+    padding: 5px 10px;
+    margin:10px;
+    border-radius:10px;
+    border: 3px solid;
+}
+button :hover{
+    cursor: pointer;
 }
