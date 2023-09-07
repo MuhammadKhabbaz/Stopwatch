@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+  background-color:black;
+    color: #fff;
+    padding: 30px;
+}
+header h1{
+    display: inline-block;
+} 
+header nav{
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+.links{
+    display: inline-block;
+    font-weight: bold;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.links a:hover{
+    background-color: #fff;
+    color: #00001c;
+    border-radius: 5px;
+}
+body{
+  background-color: #383839;
+  color: white;
+}
+main{
+    text-align: center;
+}
+main h2{
+    padding: 25px;
+    font-weight: bold;
+    font-size: 35px;
+}
+button{
+    color:Black;
+    background-color:white;
+    font-size:20px;
+    padding: 5px 10px;
+    margin: 20px 10px;
+    border-radius:10px;
+    border: 3px solid;
+    &:hover {
+        cursor: pointer;
+        color:white;
+        background-color:black;
+    }
+}
+#set-time p{
+    font-size:20px;
+    padding:10px;
+}
+input{
+    height: 22px;
+    padding:0px 2px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+#time-left{
+    font-size:40px
+}
+
+.blink-bg{
+    animation: blinkingBackground 5s infinite;
+}
+@keyframes blinkingBackground{
+    0%		{ background-color: #383839;}
+    10%     { background-color: #8e0606;}
+    20%     { background-color: #383839;}
+    30%     { background-color: #8e0606;}
+    40%		{ background-color: #383839;}
+    50%		{ background-color: #8e0606;}
+    60%     { background-color: #383839;}
+    70%     { background-color: #8e0606;}
+    80%	    { background-color: #383839;}
+    90%	    { background-color: #8e0606;}
+    100%	{ background-color: #383839;}
+}
+.red{
+    background-color: #8e0606;
+}
