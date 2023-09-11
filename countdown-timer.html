@@ -2,26 +2,29 @@
 <html lang="eng">
     <head>
         <title>Mkz-Countdown Timer</title>
-        <link rel="stylesheet" href="assets/countdown.css">
+        <link rel="stylesheet" href="assets/css/countdown.css">
     </head>
-    <body>
+    <body id="blink">
         <header>
             <h1>Mkz | Timer</h1>
             <nav>
                 <ul>
-                    <li class="links"><a href="stopwatch.html">Stopwatch</a></li>
                     <li class="links"><a href="index.html">Home</a></li>
+                    <li class="links"><a href="stopwatch.html">Stopwatch</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <h2>Countdown Timer</h2>
+            <div id="set-time">
+                <p>Time in Seconds: <input type="number" name="Time in Seconds"></p>
+            </div>
             <h3 id="time-left"></h3>
-            <div id="set-time"></div>
             <button id="start" type="button">Start</button>
-            <button id="stop" type="button">Stop</button>
-            <button id="reset" type="reset">Reset</button>
+            <button id="play" type="button" style="display: none;">Play</button>
+            <button id="stop" type="button" style="display: none;">Stop</button>
+            <button id="reset" type="button" style="display: none;">Reset</button>
         </main>
-        <script href="assets/countdown.js"></script>
+        <script src="assets/js/countdown.js"></script>
     </body>
 </html>
