@@ -68,7 +68,7 @@ playb.addEventListener("click",function(){
 for(let lap=0; lap<lapb.length; lap++){
     lapb[lap].addEventListener("click", function(){
         let output=0;
-        output += '<p>stopwatchDisplayEl.textContent</p>';
+        output += '<p></p>';
         console.log(output)
         savedLaps.innerHtml = output;
     })
